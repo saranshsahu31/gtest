@@ -5,6 +5,11 @@ def sum_numbers(numbers):
     arr = np.array(numbers)
     return np.sum(arr)
 
+def mul_numbers(numbers):
+    # Convert input to numpy array and calculate product
+    arr = np.array(numbers)
+    return np.prod(arr)
+
 if __name__ == "__main__":
     # Example usage
     test_numbers = [1, 2, 3, 4, 5]
