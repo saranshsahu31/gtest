@@ -22,3 +22,4 @@ if __name__ == "__main__":
     float_numbers = [1.5, 2.7, 3.2, 4.1]
     float_result = sum_numbers(float_numbers)
     print(f"Sum of numbers {float_numbers} is: {float_result}")
+    # done
