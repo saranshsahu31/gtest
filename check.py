@@ -8,6 +8,7 @@ def sum_numbers(numbers):
 def mul_numbers(numbers):
     # Convert input to numpy array and calculate product
     arr = np.array(numbers)
+    print(f"Multiplying numbers: {arr}")
     return np.prod(arr)
 
 if __name__ == "__main__":
