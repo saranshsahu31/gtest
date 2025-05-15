@@ -3,6 +3,7 @@ import numpy as np
 def sum_numbers(numbers):
     # Convert input to numpy array and calculate sum
     arr = np.array(numbers)
+    print("summing")
     return np.sum(arr)
 
 def mul_numbers(numbers):
